@@ -1,0 +1,27 @@
+.calculator {
+  width: 300px;
+  height: 500px;
+  background-color: rgb(50, 51, 55);
+  margin: auto;
+}
+
+.display {
+  width: 100%;
+  height: 100px;
+}
+.number-pad {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  row-gap: 1px;
+  column-gap: 1px;
+}
+
+.number {
+  flex: 1 0 33%;
+  height: 40px;
+  font-size: 36px;
+  background-color: rgb(97, 98, 102);
+  color: #ffffff;
+  border: none;
+}
